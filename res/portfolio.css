@@ -1,0 +1,94 @@
+.tooltip {
+  opacity: 1 !important;
+}
+.text-white {
+  /* font-family: "Press Start 2P", cursive; */
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 20px;
+  color: white !important;
+}
+
+.text-green {
+  /* font-family: "Press Start 2P", cursive; */
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 20px;
+  color: rgb(16, 233, 16) !important;
+}
+
+.text-white-one {
+  /* font-family: "Press Start 2P", cursive; */
+  font-family: "Bruno Ace SC", cursive;
+  color: white;
+}
+
+body {
+  background: #111111;
+}
+
+.nav-header-one {
+  color: white;
+}
+
+.nav-header-one:hover {
+  color: #008037;
+}
+
+.section-padding {
+  padding: 20px 0;
+}
+
+.portfolio .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card-body i {
+  font-size: 20px;
+}
+
+.carousel-item {
+  background-color: black;
+}
+
+.carousel-item img {
+  margin-top: 50px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
+
+  .youtube {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-text {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .youtube {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .youtube {
+    height: 600px;
+  }
+}
